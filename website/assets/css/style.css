@@ -1,3 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background: #BDBDBD;
+    background: gray;
+}
+
+.fila1{
+    margin-top: 2%;
+    display: flex;
+}
+
+.iz{
+    margin-left: 25%;
+}
+
+.de{
+    margin-right: 25%;
+    margin-left: 1%;
+}
+
+.der{
+    margin-right: 25%;
+}
+
+.ff{
+    margin-right: 25%;
+    border-radius: 50%;
+    width: 9%;
+    height: 9%;
+}
+
+.f2{
+    margin-left: 25%;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+span{
+    color:antiquewhite;
+}
+
+.p2{
+    margin-left: 1%;
+}
+.parrafo{
+    margin-left: 1%;
+}
+
+.container_image{
+    background-size: cover;
+    height:65vh;
+    background-repeat: no-repeat;
+    background-image: url(https://img.andrewprokos.com/LONDON-SHARD-CITY-TOWER-PANORAMIC-SKYLINE-9353-COLOR-1500PX.jpg);
+}
+
+.formulario{
+    border: 3px solid rgba(212, 203, 203, 0.884);
+    padding: 15px;
+    background-color: rgb(212, 203, 203, 0.884);
+}
+
+.porfo{
+   margin: auto;
+   width: 50%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
+.fote{
+    margin-top: 2%;
+    margin-left: 24%;
 }
